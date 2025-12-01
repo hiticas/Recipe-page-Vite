@@ -1,12 +1,18 @@
-import { useState } from 'react'
 import './App.scss'
+import Hero from './components/Hero/Hero'
+import Preparation from './components/Preparation/Preparation'
+import Ingredients from './components/Ingredients/Ingredients'
+import Instructions from './components/Instructions/Instructions'
+import Nutrition from './components/Nutrition/Nutrition'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <div className="app">
-      <h1 className="title">Vite Starter</h1>
+      <Hero />
+      <Preparation />
+      <Ingredients />
+      <Instructions />
+      <Nutrition />
     </div>
   )
 }
