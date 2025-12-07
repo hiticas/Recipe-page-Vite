@@ -1,5 +1,22 @@
 .preparation {
-    .title {
-        color: var(--color-rose);
+  padding: 40px;
+  .text-subtitle {
+    &.prep {
+      color: var(--color-rose);
     }
+  }
+
+  .content {
+    padding-left: 50px;
+    
+    .item {
+      // font-size: 20px;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .preparation {
+    background: white;
+  }
 }

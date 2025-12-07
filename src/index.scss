@@ -1,19 +1,27 @@
 :root {
   /* Font */
   --font-family: 'Outfit', sans-serif;
+  --font-young-serif: 'Young Serif', serif;
+
+  /* Font weights */
   --font-regular: 400;
   --font-bold: 700;
 
   /* Font sizes */
-  --size-x-large: 70px;
-  //--size-large: 20px;
-  --size-medium: 40px;
-  --size-small: 20px;
-  //--size-x-small: 8px;
+  --size-big-xxl: 50px;
+  --size-big-xl: 40px;
+  --size-big-m: 30px;
+
+  --size-xx-large: 28px;
+  --size-x-large: 24px;
+  --size-large: 20px;
+  --size-medium: 16px;
+  --size-small: 12px;
+  --size-x-small: 8px;
+  --size-xx-small: 4px;
 
   /* Colors */
   --background-page: #F4E4D9;
-  --background-preparation: #FFF7FC;
 
   --color-white: white;
   --color-black: black;
@@ -22,17 +30,22 @@
   --color-brown: #834731;
 
   /* Spacing scale */
-  //--space-large: 20px;
-  //--space-medium: 16px;
-  //--space-small: 12px;
+  --space-xxl: 32px;
+  --space-xl: 24px;
+  --space-lg: 20px;
+  --space-md: 16px;
+  --space-sm: 12px;
+  --space-xs: 8px;
+  --space-xxs: 4px;
+  --space-2: 2px;
+  --space-1: 1px;
 
   /* Border radius scale */
-  //--radius-large: 12px;
-  //--radius-medium: 8px;
-  //--radius-small: 4px;
-
-  /* Component-specific */
-  //--card-max-width: 300px;
+  --radius-xl: 20px;
+  --radius-lg: 12px;
+  --radius-md: 8px;
+  --radius-sm: 4px;
+  --radius-round: 50%;
 }
 
 * {
@@ -41,19 +54,47 @@
   box-sizing: border-box;
 }
 
-.text-large {
-  font-size: var(--size-x-large);
-  color: var(--color-black);
+body {
+  font-family: var(--font-outfit);
 }
 
-.text-medium {
-  font-size: var(--size-medium);
+.text-title {
+  font-size: var(--size-big-xxl);
+  color: var(--color-black);
+  font-family: var(--font-young-serif);
+  line-height: 50px;
+}
+
+.text-subtitle {
+  font-size: var(--size-big-m);
   color: var(--color-brown);
 }
 
-.text-small {
-  font-size: var(--size-small);
+.text-body {
+  font-size: var(--size-large);
   color: var(--color-grey);
 }
 
-.preparation-box {}
+@media (min-width: 575px) {
+  body {
+    // background: #F3E5D8;
+  }
+}
+
+@media (min-width: 768px) {
+  body {
+    background: #F3E5D8;
+  }
+}
+ 
+@media (min-width: 1024px) {
+  body {
+    // background: #F3E5D8;
+  }
+}
+
+@media (min-width: 1200px) {
+  body {
+    // background: #F3E5D8;
+  }
+}

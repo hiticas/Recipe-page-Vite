@@ -1,0 +1,16 @@
+.instructions {
+  padding: 40px;
+}
+
+@media (min-width: 768px) {
+  .instructions {
+    background: white;
+    .content {
+      padding-left: 50px;
+
+      .item {
+        // font-size: 20px;
+      }
+    }
+  }
+}

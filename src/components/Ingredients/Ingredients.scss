@@ -1,0 +1,17 @@
+.ingredients {
+//   background: white;
+  padding: 40px;
+  .content {
+    padding-left: 50px;
+
+    .item {
+      // font-size: 20px;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .ingredients {
+    background: white;
+  }
+}

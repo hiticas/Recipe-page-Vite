@@ -1,5 +1,30 @@
 .hero {
-    .image-omelette {
-        width: 100%;
+  .image-omelette {
+    width: 100%;
+  }
+  .content {
+    padding: 30px;
+    .text-title {
+      font-size: 38px;
     }
+  }
+}
+
+@media (min-width: 768px) {
+  .hero {
+    background: white;
+    border-radius: 20px 20px 0 0;
+    padding: 50px;
+
+    .image-omelette {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .content {
+      .text-title {
+        font-size: 50px;
+      }
+    }
+  }
 }
