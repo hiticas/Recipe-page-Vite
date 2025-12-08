@@ -1,13 +1,12 @@
-# Frontend Mentor - Recipe page
+# Recipe page
+
+## Live Demo
+- **Live URL:** https://recipe-page-vite.netlify.app/
 
 ## Screenshot
 ![](desktop-design.jpg)
 
 A simple solution to the Frontend Mentor **Recipe page** challenge.
-
-## Live Demo
-- **Solution URL:** https://recipe-page-vite.netlify.app/
-- **Live Site:** https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm
 
 ## Built With
 - Vite
