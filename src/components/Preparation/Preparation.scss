@@ -1,7 +1,12 @@
 .preparation {
-  padding: 30px;
+  margin: 30px;
   background-color: var(--background-preparation);
   border-radius: 20px;
+
+  .box {
+    padding: 30px;
+  }
+
   .text-subtitle {
     &.prep-title {
       color: var(--color-rose);
@@ -23,5 +28,13 @@
 @media (min-width: 768px) {
   .preparation {
     background: white;
+    margin: 0;
+    padding: 30px;
+    border-radius: 0;
+
+    .box {
+      background-color: var(--background-preparation);
+      border-radius: 20px;
+    }
   }
 }
