@@ -1,6 +1,6 @@
 :root {
   /* Font */
-  --font-family: 'Outfit', sans-serif;
+  --font-outfit: 'Outfit', sans-serif;
   --font-young-serif: 'Young Serif', serif;
 
   /* Font weights */
@@ -31,6 +31,9 @@
   --color-brown: #834731;
 
   /* Spacing scale */
+  --space-big-xl: 40px;
+  --space-big-m: 30px;
+
   --space-xxl: 32px;
   --space-xl: 24px;
   --space-lg: 20px;
@@ -69,6 +72,7 @@ body {
 .text-subtitle {
   font-size: var(--size-big-m);
   color: var(--color-brown);
+  font-family: var(--font-young-serif);
 }
 
 .text-body {
@@ -76,26 +80,8 @@ body {
   color: var(--color-grey);
 }
 
-@media (min-width: 575px) {
-  body {
-    // background: #F3E5D8;
-  }
-}
-
 @media (min-width: 768px) {
   body {
     background: #F3E5D8;
-  }
-}
- 
-@media (min-width: 1024px) {
-  body {
-    // background: #F3E5D8;
-  }
-}
-
-@media (min-width: 1200px) {
-  body {
-    // background: #F3E5D8;
   }
 }

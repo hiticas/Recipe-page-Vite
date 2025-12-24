@@ -11,6 +11,7 @@ function Ingredients() {
         <li className="item text-body">1 tablespoon of butter or oil</li>
         <li className="item text-body">Optional fillings: cheese, diced vegetables, cooked meats, herbs</li>
       </ul>
+      <div className='divider'></div>
     </div>
   )
 }

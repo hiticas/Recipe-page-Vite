@@ -1,8 +1,20 @@
 .instructions {
-  padding: 40px;
+  padding: 0 var(--space-big-xl);
 
   .text-subtitle {
-    padding-bottom: 20px;
+    padding-bottom: var(--space-lg);
+  }
+
+  .item {
+    display: flex;
+    gap: var(--space-lg);
+    padding-bottom: var(--space-md);
+    padding-left: var(--space-sm);
+  }
+
+  .divider {
+    border-bottom: 1px solid #80808082;
+    padding-top: var(--space-big-xl);
   }
 }
 
@@ -11,10 +23,6 @@
     background: white;
     .content {
       padding-left: 50px;
-
-      .item {
-        // font-size: 20px;
-      }
     }
   }
 }

@@ -1,25 +1,29 @@
 .preparation {
-  margin: 30px;
+  margin: 0 var(--space-big-m);
   background-color: var(--background-preparation);
-  border-radius: 20px;
+  border-radius: var(--space-lg);
 
   .box {
-    padding: 30px;
+    padding: var(--space-big-m);
   }
 
   .text-subtitle {
     &.prep-title {
-      color: var(--color-rose);
-      font-weight: 400;
-      padding-bottom: 20px;
+      //color: var(--color-rose);
+      color: #683048;
+      font-weight: 600;
+      padding-bottom: var(--space-lg);
+      font-size: var(--size-x-large);
+      font-family: var(--font-outfit);
     }
   }
 
   .content {
-    padding-left: 40px;
+    padding-left: var(--space-xl);
     
     .item {
-      padding-bottom: 20px;
+      padding-bottom: var(--space-lg);
+      padding-left: var(--space-lg);
       line-height: 30px;
     }
   }
@@ -29,12 +33,12 @@
   .preparation {
     background: white;
     margin: 0;
-    padding: 30px;
+    padding: 0 var(--space-big-xl);
     border-radius: 0;
 
     .box {
       background-color: var(--background-preparation);
-      border-radius: 20px;
+      border-radius: var(--radius-xl);
     }
   }
 }

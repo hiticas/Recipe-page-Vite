@@ -3,10 +3,10 @@
     width: 100%;
   }
   .content {
-    padding: 30px;
+    padding: var(--space-big-xl);
     .text-title {
-      font-size: 34px;
-      padding-bottom: 20px;
+      font-size: var(--size-big-m);
+      padding-bottom: var(--space-big-m);
     }
   }
 }
@@ -14,17 +14,16 @@
 @media (min-width: 768px) {
   .hero {
     background: white;
-    border-radius: 20px 20px 0 0;
-    padding: 50px;
+    border-radius: var(--radius-xl) var(--radius-xl) 0 0;
+    padding: 50px 50px 0;
 
     .image-omelette {
       width: 100%;
-      border-radius: 10px;
+      border-radius: var(--radius-lg);
     }
 
     .content {
-      padding: 0;
-      padding-top: 20px;
+      padding: var(--space-big-xl) 0;
       .text-title {
         font-size: 50px;
       }

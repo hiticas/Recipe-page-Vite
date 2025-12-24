@@ -1,16 +1,21 @@
 .ingredients {
-//   background: white;
-  padding: 40px;
+  padding: var(--space-big-xl);
 
   .text-subtitle {
-    padding-bottom: 20px;
+    padding-bottom: var(--space-lg);
   }
   .content {
-    padding-left: 50px;
+    padding-left: var(--space-lg);
+    padding-bottom: var(--space-big-xl);
 
     .item {
-      // font-size: 20px;
+      padding-bottom: var(--space-lg);
+      padding-left: var(--space-lg);
     }
+  }
+
+  .divider {
+    border-bottom: 1px solid #80808082;
   }
 }
 
